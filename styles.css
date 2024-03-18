@@ -128,19 +128,19 @@ p {
 .conteudo__clientes{
     background-color: #692020;
 }
-.conteudo__advogado_botao{
-    --bs-btn-color: white;
-    --bs-btn-bg: black;
-    --bs-btn-border-color: #black;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #D12929;
-    --bs-btn-hover-border-color: #692020;
-    --bs-btn-focus-shadow-rgb: #692020;
-    font-weight: 600;
-    text-align: center;
-    font-size: 1.2em;
-    height: 3em;
-    width: 12em;
+.conteudo__advogado_botao {
+    --bs-btn-color: white !important;
+    --bs-btn-bg: black !important;
+    --bs-btn-border-color: black !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #D12929 !important;
+    --bs-btn-hover-border-color: #692020 !important;
+    --bs-btn-focus-shadow-rgb: #692020 !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    font-size: 1.2em !important;
+    height: 3em !important;
+    width: 12em !important;
 }
 .conteudo__clientes_titulo{
     padding-top: 3em;
@@ -166,13 +166,13 @@ p {
     padding-bottom: 29.5em !important;
 }
 .direitos__autorais{
-    height: 3rem;
-    background-color: #692020;
+    height: 3rem !important;
+    background-color: #692020 !important;
 }
 
 .conteudo__footer_imagem{
-    height: 60%;
-    width: 50%;
+    height: 60% !important;
+    width: 50% !important;
 }
 .direitos__autorais a {
     font-size: 8px;
@@ -181,7 +181,7 @@ p {
 }
 
 .qrcode{
-    width: 30%;
+    width: 30% !important;
 }
 @media (max-width: 1300px) {
     h1 {
