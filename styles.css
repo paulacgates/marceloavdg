@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Questrial", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+h1 {
+    color: white;
+    font-size: 3.8em;
+    font-weight: 900;
+}
+h2{
+    font-size: 1.3em;
+    color: white;
+}
+
+p {
+    font-size: 1.3em;
+    color: white;
+}
+
+
+.altura__pagina{
+    width: 100%;
+    min-height: 100vh;
+}
+.cabecalho__logo{
+    margin: 0;
+    padding: 0;
+    width: 75%;
+}
+
+.cabecalho__navbar_imagem{
+    width: 70%;
+}
+
+.conteudo__principal{
+    overflow: hidden;
+    background-image: url("./img/homebackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.conteudo__principal_texto{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 6em !important;
+    margin: 3em;
+}
+
+.conteudo__principal_botao_div{
+    margin-top: 90px !important;
+}
+.conteudo__principal_botao{
+    --bs-btn-color: white;
+    --bs-btn-bg: #692020;
+    --bs-btn-border-color: #white;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #D12929;
+    --bs-btn-hover-border-color: #692020;
+    --bs-btn-focus-shadow-rgb: #692020;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.5em;
+    height: 3em;
+    width: 10em;
+}
+.conteudo__principal_texto_destacado {
+    color: #D12929;
+}
+.conteudo__praticas{
+    background-color: black;
+}
+.conteudo__praticas_div{
+    padding-top: 100px;
+}
+.conteudo__praticas_texto{
+    font-size: 2em;
+}
+
+.conteudo__praticas_item{
+    margin-right: 6em !important;
+    margin: 2em;
+}
+
+.conteudo__praticas_item:hover{
+    .conteudo__praticas_item_texto {
+        font-size:1.35em;
+        font-weight:700;
+    }
+}
+.conteudo__praticas_div_itens{
+    padding-top: 6em !important;
+    margin-left: 2em !important;
+}
+
+.conteudo__praticas_item_icone{
+    color: white;
+    font-size: 11px;
+}
+.conteudo__advogado{
+    background-color: #692020;
+}
+
+.conteudo__advogado_imagem{
+    width: 50%;
+    box-shadow: 40px 40px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.conteudo__advogado_imagem_div{
+    margin-top: 8em;
+}
+
+.conteudo__advogado_texto{
+    margin-top: 10rem;
+}
+
+@media (max-width: 1300px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    p{
+        font-size: 1.3em;
+    }
+    .cabecalho__logo{
+        width: 50%;
+    }
+    .conteudo__praticas_div{
+        padding-top: 40px !important
+    }
+    .conteudo__praticas_div_itens{
+        padding: 0 !important;
+        margin: 0;
+        margin-left: 100px !important;
+        padding-top: 50px !important;
+    }
+    .cabecalho__navbar_imagem{
+        width: 100%;
+    }
+    .cabecalho__gap{
+        width: 0 !important;
+    }
+    .cabecalho__div_logo{
+        width: 70% !important;
+    }
+    
+}
+@media (max-width: 768px) {
+    .cabecalho__div{
+        margin: 0 !important;
+    }
+    .cabecalho__gap{
+        width: 0 !important;
+    }
+    .cabecalho__div_logo{
+        justify-content: center !important;
+        width: 100% !important;
+    }
+    .cabecalho__navbar_imagem{
+        display: none;
+    }
+    .cabecalho__logo{
+        width: 60%;
+    }
+    .conteudo__principal_texto{
+        overflow: hidden;
+        text-align: center;
+        margin: 6px !important;
+        padding-top: 100px !important;
+    }
+    .conteudo__principal_botao_div{
+        margin: 0 !important;
+        padding-top: 50px !important;
+    }
+    .conteudo__principal_botao{
+        font-size: 16px;
+        height: 60px;
+        width: 150px;
+    }
+    .conteudo__principal_texto_principal_div{
+        width: 100%;
+    }
+    .conteudo__praticas_texto{
+        padding-top: 40px;
+        font-size: 15px;
+    }
+    .conteudo__praticas_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        overflow: hidden !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .conteudo__praticas_item{
+        padding: 10px !important;
+        margin: 10px !important;
+        margin-left: 8px !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .conteudo__praticas_item_texto{
+        overflow: auto;
+    }
+    .conteudo__praticas_div_itens{
+        display: flex;
+        justify-content: center;
+        overflow: hidden !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        padding-top: 30px !important;
+    }
+
+    .conteudo__praticas_item_icone{
+        font-size: 4px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    p{
+        font-size: 12px;
+    }
+}
