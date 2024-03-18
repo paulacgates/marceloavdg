@@ -82,8 +82,7 @@ p {
 }
 
 .conteudo__praticas_item{
-    margin-right: 6em !important;
-    margin: 2em;
+    margin: 3em;
 }
 
 .conteudo__praticas_item:hover{
@@ -110,6 +109,13 @@ p {
     box-shadow: 40px 40px 8px rgba(0, 0, 0, 0.1);
 
 }
+.conteudo__advogado_div{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.conteudo__advogado_texto_titulo{
+    overflow: hidden;
+}
 
 .conteudo__advogado_imagem_div{
     margin-top: 8em;
@@ -119,6 +125,56 @@ p {
     margin-top: 10rem;
 }
 
+.conteudo__clientes{
+    background-color: #692020;
+}
+.conteudo__advogado_botao{
+    --bs-btn-color: white;
+    --bs-btn-bg: black;
+    --bs-btn-border-color: #black;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #D12929;
+    --bs-btn-hover-border-color: #692020;
+    --bs-btn-focus-shadow-rgb: #692020;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.2em;
+    height: 3em;
+    width: 12em;
+}
+.conteudo__clientes_titulo{
+    padding-top: 3em;
+}
+
+.conteudo__footer{
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.conteudo__footer_titulo{
+    font-size: 3em;
+    font-weight: 500;
+    color: black;
+}
+
+.conteudo__footer_icone{
+    margin: 1em;
+    width: 6%;
+}
+
+
+.conteudo__footer_div{
+    padding-top: 15em !important;
+    padding-bottom: 29.5em !important;
+}
+.direitos__autorais{
+    background-color: #692020;
+}
+
+.direitos__autorais a {
+    font-size: 8px;
+    color: white;
+    text-decoration: none;
+}
 @media (max-width: 1300px) {
     h1 {
         font-size: 3em;
@@ -150,7 +206,9 @@ p {
     .cabecalho__div_logo{
         width: 70% !important;
     }
-    
+    .conteudo__advogado_div{
+        margin: 0 !important;
+    }
 }
 @media (max-width: 768px) {
     .cabecalho__div{
@@ -168,6 +226,9 @@ p {
     }
     .cabecalho__logo{
         width: 60%;
+    }
+    .cabecalho__link_logo{
+        text-align: center !important;
     }
     .conteudo__principal_texto{
         overflow: hidden;
@@ -208,20 +269,62 @@ p {
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
     }
-    .conteudo__praticas_item_texto{
-        overflow: auto;
-    }
     .conteudo__praticas_div_itens{
-        display: flex;
-        justify-content: center;
         overflow: hidden !important;
         padding: 0 !important;
         margin: 0 !important;
+        margin-left: 20px !important;
         padding-top: 30px !important;
     }
 
     .conteudo__praticas_item_icone{
         font-size: 4px;
+    }
+    .conteudo__praticas_item:hover{
+        .conteudo__praticas_item_texto {
+            font-size:13px;
+            font-weight:700;
+        }
+    }
+
+    .conteudo__advogado_imagem_div{
+        margin-top: 0 !important;
+        padding-top: 50px !important;
+        width: 100%;
+    }
+
+    .conteudo__advogado_imagem{
+        box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.1);
+        width: 60%;
+    }
+
+    .conteudo__advogado_texto{
+        margin: 0 !important;
+        width: 100%;
+    }
+    .conteudo__advogado_texto_titulo{
+        margin: 0 !important;
+        margin-top: 20px !important;
+        margin-bottom: 40px !important;
+        text-align: center;
+    }
+    .conteudo__advogado_texto_especialidade{
+        font-size: 15px;
+        margin-left: 30px !important;
+        margin-right: 20px !important;
+    }
+    .conteudo__advogado_div{
+        margin: 0 !important;
+    }
+
+    .conteudo__advogado_botao{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .conteudo__advogado_especialidade-botao{
+        display: flex;
+        justify-content: center;
     }
     h1 {
         font-size: 30px;
