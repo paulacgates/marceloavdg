@@ -136,6 +136,7 @@ p {
     --bs-btn-hover-bg: #D12929 !important;
     --bs-btn-hover-border-color: #692020 !important;
     --bs-btn-focus-shadow-rgb: #692020 !important;
+    --bs-btn-active-bg: #D12929 !important;
     font-weight: 600 !important;
     text-align: center !important;
     font-size: 1.2em !important;
