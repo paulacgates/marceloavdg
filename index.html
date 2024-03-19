@@ -21,16 +21,16 @@
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="cabecalho__div container-fluid row">
                     <div class="cabecalho__div_logo col-7 d-flex justify-content-end">
-                        <a class="cabecalho__link_logo text-end" href="#sobreAdvogado"><img class="cabecalho__logo"
+                        <img class="cabecalho__logo"
                                 src="./img/logo.png"
-                                alt="Foto da logo do escritório do Marcelo Marques. São dois M no fundo na cor cinza. Na frente em preto, escrito Marcelo Marques e uma linha vermelha embaixo. Embaixo da linha vermelha, ainda está escrito Advocacia Tributária"></a>
+                                alt="Foto da logo do escritório do Marcelo Marques. São dois M no fundo na cor cinza. Na frente em preto, escrito Marcelo Marques e uma linha vermelha embaixo. Embaixo da linha vermelha, ainda está escrito Advocacia Tributária">
                     </div>
                     <div class="cabecalho__gap col-4"></div>
                     <div class="col-1">
-                        <div class="d-flex" id="navbarNav">
-                            <a class="nav-link" href="#" target="_blank"><img class="cabecalho__navbar_imagem"
+                        <div class="d-flex col-10" id="navbarNav">
+                            <a class="nav-link me-1" href="#" target="_blank"><img class="cabecalho__navbar_imagem"
                                     src="./img/facebook.png" alt="logo do facebook"></a>
-                            <a class="nav-link" target="_blank"
+                            <a class="nav-link me-1" target="_blank"
                                 href="
                                 https://wa.me//5565999304446?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20seus%20serviços%20jurídicos%20tributários."><img
                                     class="cabecalho__navbar_imagem" src="./img/whatsapp.png"
@@ -170,7 +170,8 @@
                     <p>Possui cursos de extensão na Faculdade Brasileira de Tributação e na Fundação Getúlio Vargas</p>
                 </div>
                 <div class="conteudo__advogado_texto_especialidade conteudo__advogado_especialidade-botao d-flex mb-5">
-                    <a target="_blank" href="https://wa.me//5565999304446?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20seus%20serviços%20jurídicos%20tributários."
+                    <a target="_blank"
+                        href="https://wa.me//5565999304446?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20seus%20serviços%20jurídicos%20tributários."
                         class="conteudo__advogado_botao btn btn-primary rounded-5 d-flex align-items-center justify-content-center"><i
                             class="bi bi-chat-left-dots me-2"></i> Mandar Mensagem</a>
                 </div>
@@ -179,6 +180,41 @@
     </section>
     <section class="conteudo__clientes altura__pagina">
         <h1 class="conteudo__clientes_titulo text-center">NOSSOS CLIENTES</h1>
+        <div class="d-flex justify-content-center">
+            <div id="carouselAutoplaying" class="conteudo__clientes_carousel carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <img class="conteudo__clientes_avaliacao w-50 mx-auto" src="./img/clientes/1.png" class="d-block w-100" alt="Avaliação 1 de cliente">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img class="conteudo__clientes_avaliacao w-50 mx-auto" src="./img/clientes/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img class="conteudo__clientes_avaliacao w-50 mx-auto" src="./img/clientes/3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img class="conteudo__clientes_avaliacao w-50 mx-auto" src="./img/clientes/4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img class="conteudo__clientes_avaliacao w-50 mx-auto" src="./img/clientes/5.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img class="conteudo__clientes_avaliacao w-50 mx-auto" src="./img/clientes/6.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img class="conteudo__clientes_avaliacao w-50 mx-auto" src="./img/clientes/7.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
     </section>
     <section class="conteudo__footer altura__pagina">
         <div class="conteudo__footer_div row d-flex justify-content-center m-0 p-0">
@@ -201,16 +237,18 @@
                 <img class="qrcode" src="./img/qrcode.jpeg" alt="Qr code do instagram">
             </div>
         </div>
-        <div class="direitos__autorais d-flex align-items-center m-0 p-0">
-            <a class="ms-2" href="https://www.flaticon.com/br/icones-gratis/whatsapp" title="whatsapp ícones">Whatsapp ícones
+        <div class="direitos__autorais d-flex align-items-center m-0 p-0" style="display: none;">
+            <a class="ms-2" href="https://www.flaticon.com/br/icones-gratis/whatsapp" title="whatsapp ícones">Whatsapp
+                ícones
                 criados por
                 Freepik - Flaticon • </a>
             <a href="https://www.flaticon.com/br/icones-gratis/logotipo-do-instagram"
-                title="logotipo do instagram ícones">Logotipo do instagram ícones criados por Freepik - Flaticon  •</a>
+                title="logotipo do instagram ícones">Logotipo do instagram ícones criados por Freepik - Flaticon •</a>
             <a href="https://www.flaticon.com/br/icones-gratis/facebook" title="facebook ícones">Facebook ícones
                 criados por
-                Freepik - Flaticon  • </a>
-            <a class="pe-2 m-2" target="_blank" href="https://www.linkedin.com/in/paulacgates/"> Desenvolvido por: Paula Gates </a>
+                Freepik - Flaticon • </a>
+            <a class="pe-2 m-2" target="_blank" href="https://www.linkedin.com/in/paulacgates/"> Desenvolvido por: Paula
+                Gates </a>
 
         </div>
     </section>
